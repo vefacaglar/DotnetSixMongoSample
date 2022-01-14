@@ -3,7 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.32112.339
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vcmng.Api", "Vcmng.Api\Vcmng.Api.csproj", "{B96B8E61-DEA3-4223-AFC8-92902B03535D}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B96B8E61-DEA3-4223-AFC8-92902B03535D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B96B8E61-DEA3-4223-AFC8-92902B03535D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B96B8E61-DEA3-4223-AFC8-92902B03535D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B96B8E61-DEA3-4223-AFC8-92902B03535D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
